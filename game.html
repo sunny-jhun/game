@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<title>Snake</title>
+</head>
+<body>
+<p id="score">
+		Score: 0
+	</p>
+	<div class="div1">
+		<canvas id="canvas" width="1050" height="560" ></canvas>
+		<div>
+			<div class="div2">
+				<input type="button" id="play" value="play" onClick="game()"/>
+				<!--<input type="button" id="map" value="create map" onClick="construct()"/>-->
+			</div>
+			<div class="div2">
+				<div>
+					<input class="control" type="button" id="up" value="up" onClick="upButton()"/>
+				</div>
+				<div>
+					<input class="control" type="button" id="left" value="left" onClick="leftButton()"/>
+					<input class="control" type="button" id="right" value="right" onClick="rightButton()"/>
+				</div>
+				<div>
+					<input class="control" type="button" id="down" value="down" onClick="downButton()"/>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript"  src="assets/js/script.js"> </script>
+
+
+</body>
+</html>
